@@ -1,0 +1,319 @@
+{
+    "transacciones": [
+        {
+            "Camisa": "Camisa 1",
+            "Falda": "Falda 3",
+            "Zapato": "Zapato 2",
+            "Bolso": "Bolso 1",
+            "Accesorio": "Collar 2"
+        },
+        {
+            "Camisa": "Camisa 3",
+            "Falda": "Falda 2",
+            "Zapato": "Zapato 2",
+            "Bolso": "Bolso 3",
+            "Accesorio": "Collar 1"
+        },
+        {
+            "Camisa": "Camisa 6",
+            "Falda": "Falda 2",
+            "Zapato": "Zapato 4",
+            "Bolso": "Bolso 1",
+            "Accesorio": "Collar 2"
+        },
+        {
+            "Camisa": "Camisa 2",
+            "Falda": "Falda 1",
+            "Zapato": "Zapato 5",
+            "Bolso": "Bolso 1",
+            "Accesorio": "Collar 2"
+        },
+        {
+            "Camisa": "Camisa 6",
+            "Falda": "Falda 1",
+            "Zapato": "Zapato 4",
+            "Bolso": "Bolso 2",
+            "Accesorio": "Collar 1"
+        },
+        {
+            "Camisa": "Camisa 4",
+            "Falda": "Falda 1",
+            "Zapato": "Zapato 4",
+            "Bolso": "Bolso 1",
+            "Accesorio": "bufanda"
+        },
+        {
+            "Camisa": "Camisa 5",
+            "Falda": "Falda 4",
+            "Zapato": "Zapato 4",
+            "Bolso": "Bolso 2",
+            "Accesorio": "Collar 2"
+        },
+        {
+            "Camisa": "Camisa 2",
+            "Falda": "Falda 1",
+            "Zapato": "Zapato 3",
+            "Bolso": "Bolso 2",
+            "Accesorio": "Collar 1"
+        },
+        {
+            "Camisa": "Camisa 4",
+            "Falda": "Falda 1",
+            "Zapato": "Zapato 3",
+            "Bolso": "Bolso 2",
+            "Accesorio": "Collar 1"
+        },
+        {
+            "Camisa": "Camisa 2",
+            "Falda": "Falda 5",
+            "Zapato": "Zapato 5",
+            "Bolso": "Bolso 1",
+            "Accesorio": "Collar 1"
+        },
+        {
+            "Camisa": "Camisa 6",
+            "Falda": "Falda 2",
+            "Zapato": "Zapato 5",
+            "Bolso": "Bolso 1",
+            "Accesorio": "Collar 1"
+        },
+        {
+            "Camisa": "Camisa 1",
+            "Falda": "Falda 4",
+            "Zapato": "Zapato 5",
+            "Bolso": "Bolso 1",
+            "Accesorio": "Collar 1"
+        },
+        {
+            "Camisa": "Camisa 3",
+            "Falda": "Falda 3",
+            "Zapato": "Zapato 3",
+            "Bolso": "Bolso 3",
+            "Accesorio": "Collar 1"
+        },
+        {
+            "Camisa": "Camisa 4",
+            "Falda": "Falda 5",
+            "Zapato": "Zapato 2",
+            "Bolso": "Bolso 1",
+            "Accesorio": "Collar 2"
+        },
+        {
+            "Camisa": "Camisa 5",
+            "Falda": "Falda 3",
+            "Zapato": "Zapato 2",
+            "Bolso": "Bolso 2",
+            "Accesorio": "Collar 2"
+        },
+        {
+            "Camisa": "Camisa 4",
+            "Falda": "Falda 1",
+            "Zapato": "Zapato 1",
+            "Bolso": "Bolso 1",
+            "Accesorio": "Collar 1"
+        },
+        {
+            "Camisa": "Camisa 2",
+            "Falda": "Falda 4",
+            "Zapato": "Zapato 5",
+            "Bolso": "Bolso 1",
+            "Accesorio": "Collar 2"
+        },
+        {
+            "Camisa": "Camisa 5",
+            "Falda": "Falda 5",
+            "Zapato": "Zapato 3",
+            "Bolso": "Bolso 2",
+            "Accesorio": "Collar 2"
+        },
+        {
+            "Camisa": "Camisa 4",
+            "Falda": "Falda 1",
+            "Zapato": "Zapato 5",
+            "Bolso": "Bolso 2",
+            "Accesorio": "Collar 2"
+        },
+        {
+            "Camisa": "Camisa 5",
+            "Falda": "Falda 3",
+            "Zapato": "Zapato 4",
+            "Bolso": "Bolso 1",
+            "Accesorio": "Bufanda"
+        },
+        {
+            "Camisa": "Camisa 5",
+            "Falda": "Falda 2",
+            "Zapato": "Zapato 5",
+            "Bolso": "Bolso 1",
+            "Accesorio": "Collar 2"
+        },
+        {
+            "Camisa": "Camisa 2",
+            "Falda": "Falda 5",
+            "Zapato": "Zapato 3",
+            "Bolso": "Bolso 1",
+            "Accesorio": "Collar 2"
+        },
+        {
+            "Camisa": "Camisa 4",
+            "Falda": "Falda 2",
+            "Zapato": "Zapato 5",
+            "Bolso": "Bolso 1",
+            "Accesorio": "Collar 2"
+        },
+        {
+            "Camisa": "Camisa 5",
+            "Falda": "Falda 2",
+            "Zapato": "Zapato 1",
+            "Bolso": "Bolso 1",
+            "Accesorio": "Collar 2"
+        },
+        {
+            "Camisa": "Camisa 5",
+            "Falda": "Falda 1",
+            "Zapato": "Zapato 2",
+            "Bolso": "Bolso 2",
+            "Accesorio": "Collar 1"
+        },
+        {
+            "Camisa": "Camisa 1",
+            "Falda": "Falda 3",
+            "Zapato": "Zapato 2",
+            "Bolso": "Bolso 1",
+            "Accesorio": "Collar 2"
+        },
+        {
+            "Camisa": "Camisa 2",
+            "Falda": "Falda 4",
+            "Zapato": "Zapato 5",
+            "Bolso": "Bolso 2",
+            "Accesorio": "Collar 1"
+        },
+        {
+            "Camisa": "Camisa 3",
+            "Falda": "Falda 1",
+            "Zapato": "Zapato 4",
+            "Bolso": "Bolso 3",
+            "Accesorio": "Collar 1"
+        },
+        {
+            "Camisa": "Camisa 4",
+            "Falda": "Falda 1",
+            "Zapato": "Zapato 2",
+            "Bolso": "Bolso 3",
+            "Accesorio": "Collar 2"
+        },
+        {
+            "Camisa": "Camisa 5",
+            "Falda": "Falda 2",
+            "Zapato": "Zapato 1",
+            "Bolso": "Bolso 1",
+            "Accesorio": "Collar 2"
+        },
+        {
+            "Camisa": "Camisa 6",
+            "Falda": "Falda 3",
+            "Zapato": "Zapato 3",
+            "Bolso": "Bolso 3",
+            "Accesorio": "Collar 3"
+        },
+        {
+            "Camisa": "Camisa 1",
+            "Falda": "Falda 3",
+            "Zapato": "Zapato 5",
+            "Bolso": "Bolso 2",
+            "Accesorio": "Collar 1"
+        },
+        {
+            "Camisa": "Camisa 3",
+            "Falda": "Falda 3",
+            "Zapato": "Zapato 5",
+            "Bolso": "Bolso 2",
+            "Accesorio": "Collar 2"
+        },
+        {
+            "Camisa": "Camisa 5",
+            "Falda": "Falda 2",
+            "Zapato": "Zapato 2",
+            "Bolso": "Bolso 2",
+            "Accesorio": "Collar 1"
+        },
+        {
+            "Camisa": "Camisa 5",
+            "Falda": "Falda 3",
+            "Zapato": "Zapato 2",
+            "Bolso": "Bolso 1",
+            "Accesorio": "Collar 3"
+        },
+        {
+            "Camisa": "Camisa 1",
+            "Falda": "Falda 3",
+            "Zapato": "Zapato 3",
+            "Bolso": "Bolso 1",
+            "Accesorio": "Collar 2"
+        },
+        {
+            "Camisa": "Camisa 4",
+            "Falda": "Falda 3",
+            "Zapato": "Zapato 4",
+            "Bolso": "Bolso 3",
+            "Accesorio": "Collar 1"
+        },
+        {
+            "Camisa": "Camisa 6",
+            "Falda": "Falda 3",
+            "Zapato": "Zapato 4",
+            "Bolso": "Bolso 3",
+            "Accesorio": "Collar 1"
+        },
+        {
+            "Camisa": "Camisa 5",
+            "Falda": "Falda 3",
+            "Zapato": "Zapato 4",
+            "Bolso": "Bolso 2",
+            "Accesorio": "Collar 2"
+        },
+        {
+            "Camisa": "Camisa 6",
+            "Falda": "Falda 3",
+            "Zapato": "Zapato 2",
+            "Bolso": "Bolso 2",
+            "Accesorio": "Collar 3"
+        },
+        {
+            "Camisa": "Camisa 5",
+            "Falda": "Falda 3",
+            "Zapato": "Zapato 5",
+            "Bolso": "Bolso 1",
+            "Accesorio": "Collar 1"
+        },
+        {
+            "Camisa": "Camisa 1",
+            "Falda": "Falda 3",
+            "Zapato": "Zapato 4",
+            "Bolso": "Bolso 1",
+            "Accesorio": "Collar 2"
+        },
+        {
+            "Camisa": "Camisa 5",
+            "Falda": "Falda 3",
+            "Zapato": "Zapato 3",
+            "Bolso": "Bolso 3",
+            "Accesorio": "Collar 2"
+        },
+        {
+            "Camisa": "Camisa 2",
+            "Falda": "Falda 3",
+            "Zapato": "Zapato 1",
+            "Bolso": "Bolso 2",
+            "Accesorio": "Collar 1"
+        },
+        {
+            "Camisa": "Camisa 1",
+            "Falda": "Falda 3",
+            "Zapato": "Zapato 2",
+            "Bolso": "Bolso 1",
+            "Accesorio": "Collar 3"
+        }
+    ]
+}
