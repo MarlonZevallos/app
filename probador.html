@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Probador Virtual</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="assets\css\style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="card">
+            <div class="text-center">
+              <img src="assets\images\NovedadesMayumi.png" alt="Card image" />
+            </div>
+
+            <div class="card-body">
+              <h4 class="card-title text-center">
+                Probador Virtual
+              </h4>
+              <!--Aqui-->
+              <nav>
+                <a href="#">Inicio</a>
+                <a href="login.html">login</a>
+
+              </nav>
+              <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-5.71,102.14 C315.36,150.50 377.45,38.98 500.00,99.19 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #c2626f;"></path></svg></div>
+              <!--Afin-->
+            </div>
+          </div>
+          <hr />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8">
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link active btn-default" data-toggle="pill" href="#tabTopClothes">Camisas</a>
+            </li>
+        
+            <li class="nav-item">
+                <a class="nav-link  btn-default" data-toggle="pill" href="#tabBotClothes">Faldas</a>
+            </li>
+        
+            <li class="nav-item">
+                <a class="nav-link  btn-default" data-toggle="pill" href="#tabShoes">Zapatos</a>
+            </li>
+        
+            <li class="nav-item">
+                <a class="nav-link  btn-default" data-toggle="pill" href="#tabHandBags">Bolsos</a>
+            </li>
+        
+            <li class="nav-item">
+                <a class="nav-link  btn-default" data-toggle="pill" href="#tabNecklaces">Accesorios</a>
+            </li>
+        </ul>
+
+          <div class="well">
+            <!-- Paneles -->
+            <div class="tab-content">
+              <div class="tab-pane container active" id="tabTopClothes">
+                  <div class="row">
+                      
+                  <div class="col-md-3">
+                      <div class="card text-center">
+                          <img src="../assets/images/clothes/topcloth1_show.jpg">
+                          <h4><b id='camisa1'>Camisa naranja floreada</b></h4>
+                          <button id="btnAgregarCamisa1" data-id="topcloth_1" data-type="topclothes" data-name="Camisa 1" data-desc="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, nulla." data-imgsrcjpg="../assets/images/clothes/topcloth1_show.jpg" data-imgsrcpng="../assets/images/clothes/topcloth1.png" class="tryItNow">Agregar</button>
+                      </div>
+                  </div>
+
+                  <div class="col-md-3">
+                      <div class="card text-center">
+                          <img src="../assets/images/clothes/topcloth2_show.jpg">
+                          <h4><b id='camisa2'>Camisa azul floreada</b></h4>
+                          <button id="btnAgregarCamisa2" data-id="topcloth_2" data-type="topclothes" data-name="Camisa 2" data-desc="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, nulla." data-imgsrcjpg="../assets/images/clothes/topcloth2_show.jpg" data-imgsrcpng="../assets/images/clothes/topcloth2.png" class="tryItNow">Agregar</button>
+                      </div>
+                  </div>
+              
+                  <div class="col-md-3">
+                      <div class="card text-center">
+                          <img src="../assets/images/clothes/topcloth3_show.jpg">
+                          <h4><b id='camisa3'>Camisa blanca con naranja</b></h4>
+                          <button id="btnAgregarCamisa3" data-id="topcloth_3" data-type="topclothes" data-name="Camisa 3" data-desc="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, nulla." data-imgsrcjpg="../assets/images/clothes/topcloth3_show.jpg" data-imgsrcpng="../assets/images/clothes/topcloth3.png" class="tryItNow">Agregar</button>
+                      </div>
+                  </div>
+              
+                  <div class="col-md-3">
+                      <div class="card text-center">
+                          <img src="../assets/images/clothes/topcloth4_show.jpg">
+                          <h4><b id='camisa4'>Camisa rosa a cuadros</b></h4>
+                          <button id="btnAgregarCamisa4" data-id="topcloth_4" data-type="topclothes" data-name="Camisa 4" data-desc="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, nulla." data-imgsrcjpg="../assets/images/clothes/topcloth4_show.jpg" data-imgsrcpng="../assets/images/clothes/topcloth4.png" class="tryItNow">Agregar</button>
+                      </div>
+                  </div>
+              
+                  <div class="col-md-3">
+                      <div class="card text-center">
+                          <img src="../assets/images/clothes/topcloth5_show.jpg">
+                          <h4><b id='camisa5'>Camisa jean azul</b></h4>
+                          <button id="btnAgregarCamisa5" data-id="topcloth_5" data-type="topclothes" data-name="Camisa 5" data-desc="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, nulla." data-imgsrcjpg="../assets/images/clothes/topcloth5_show.jpg" data-imgsrcpng="../assets/images/clothes/topcloth5.png" class="tryItNow">Agregar</button>
+                      </div>
+                  </div>
+              
+                  <div class="col-md-3">
+                      <div class="card text-center">
+                          <img src="../assets/images/clothes/topcloth6_show.jpg">
+                          <h4><b id='camisa6'>Blusa Naranja </b></h4>
+                          <button id="btnAgregarCamisa6" data-id="topcloth_6" data-type="topclothes" data-name="Camisa 6 " data-desc="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, nulla." data-imgsrcjpg="../assets/images/clothes/topcloth6_show.jpg" data-imgsrcpng="../assets/images/clothes/topcloth6.png" class="tryItNow">Agregar</button>
+                      </div>
+                  </div>
+              
+                  </div>
+              </div>
+          
+              <div class="tab-pane container fade" id="tabBotClothes">
+                  <div class="row">
+                      
+                  <div class="col-md-3">
+                      <div class="card text-center">
+                          <img src="../assets/images/clothes/botcloth1_show.jpg">
+                          <h4><b id="falda1">Minifalta Negra bordada</b></h4>
+                          <button id="btnAgregarFalda1" data-id="botcloth_1" data-type="botclothes" data-name="Falda 1" data-desc="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, nulla." data-imgsrcjpg="../assets/images/clothes/botcloth1_show.jpg" data-imgsrcpng="../assets/images/clothes/botcloth1.png" class="tryItNow">Agregar</button>
+                      </div>
+                  </div>
+              
+                  <div class="col-md-3">
+                      <div class="card text-center">
+                          <img src="../assets/images/clothes/botcloth2_show.jpg">
+                          <h4><b id="falda2">Falda negra larga</b></h4>
+                          <button id="btnAgregarFalda2" data-id="botcloth_2" data-type="botclothes" data-name="Falda 2" data-desc="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, nulla." data-imgsrcjpg="../assets/images/clothes/botcloth2_show.jpg" data-imgsrcpng="../assets/images/clothes/botcloth2.png" class="tryItNow">Agregar</button>
+                      </div>
+                  </div>
+              
+                  <div class="col-md-3">
+                      <div class="card text-center">
+                          <img src="../assets/images/clothes/botcloth3_show.jpg">
+                          <h4><b id="falda3">Falda celeste con detalle</b></h4>
+                          <button id="btnAgregarFalda3" data-id="botcloth_3" data-type="botclothes" data-name="Falda 3" data-desc="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, nulla." data-imgsrcjpg="../assets/images/clothes/botcloth3_show.jpg" data-imgsrcpng="../assets/images/clothes/botcloth3.png" class="tryItNow">Agregar</button>
+                      </div>
+                  </div>
+              
+                  <div class="col-md-3">
+                      <div class="card text-center">
+                          <img src="../assets/images/clothes/botcloth4_show.jpg">
+                          <h4><b id="falda4">Falda contraste blanco y rojo</b></h4>
+                          <button id="btnAgregarFalda4" data-id="botcloth_4" data-type="botclothes" data-name="Falda 4" data-desc="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, nulla." data-imgsrcjpg="../assets/images/clothes/botcloth4_show.jpg" data-imgsrcpng="../assets/images/clothes/botcloth4.png" class="tryItNow">Agregar</button>
+                      </div>
+                  </div>
+              
+                  <div class="col-md-3">
+                      <div class="card text-center">
+                          <img src="../assets/images/clothes/botcloth5_show.jpg">
+                          <h4><b id="falda5">Falda roja</b></h4>
+                          <button id="btnAgregarFalda5" data-id="botcloth_5" data-type="botclothes" data-name="Falda 5" data-desc="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, nulla." data-imgsrcjpg="../assets/images/clothes/botcloth5_show.jpg" data-imgsrcpng="../assets/images/clothes/botcloth5.png" class="tryItNow">Agregar</button>
+                      </div>
+                  </div>
+              
+                  </div>
+              </div>
+          
+              <div class="tab-pane container fade" id="tabShoes">
+                  <div class="row">
+                      
+                  <div class="col-md-3">
+                      <div class="card text-center">
+                          <img src="../assets/images/shoes/shoes1_show.jpg">
+                          <h4><b id="zapato1">Botines Rojos</b></h4>
+                          <button id="btnAgregarZapato1" data-id="shoes_1" data-type="shoes" data-name="Zapato 1" data-desc="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, nulla." data-imgsrcjpg="../assets/images/shoes/shoes1_show.jpg" data-imgsrcpng="../assets/images/shoes/shoes1.png" class="tryItNow">Agregar</button>
+                      </div>
+                  </div>
+              
+                  <div class="col-md-3">
+                      <div class="card text-center">
+                          <img src="../assets/images/shoes/shoes2_show.jpg">
+                          <h4><b id="zapato2">Botines camel</b></h4>
+                          <button id="btnAgregarZapato2" data-id="shoes_2" data-type="shoes" data-name="Zapato 2" data-desc="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, nulla." data-imgsrcjpg="../assets/images/shoes/shoes2_show.jpg" data-imgsrcpng="../assets/images/shoes/shoes2.png" class="tryItNow">Agregar</button>
+                      </div>
+                  </div>
+              
+                  <div class="col-md-3">
+                      <div class="card text-center">
+                          <img src="../assets/images/shoes/shoes3_show.jpg">
+                          <h4><b id="zapato3">Zapato a tiras</b></h4>
+                          <button id="btnAgregarZapato3" data-id="shoes_3" data-type="shoes" data-name="Zapato 3" data-desc="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, nulla." data-imgsrcjpg="../assets/images/shoes/shoes3_show.jpg" data-imgsrcpng="../assets/images/shoes/shoes3.png" class="tryItNow">Agregar</button>
+                      </div>
+                  </div>
+              
+                  <div class="col-md-3">
+                      <div class="card text-center">
+                          <img src="../assets/images/shoes/shoes4_show.jpg">
+                          <h4><b id="zapato4">Botines dorados</b></h4>
+                          <button id="btnAgregarZapato4" data-id="shoes_4" data-type="shoes" data-name="Zapato 4" data-desc="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, nulla." data-imgsrcjpg="../assets/images/shoes/shoes4_show.jpg" data-imgsrcpng="../assets/images/shoes/shoes4.png" class="tryItNow">Agregar</button>
+                      </div>
+                  </div>
+              
+                  <div class="col-md-3">
+                      <div class="card text-center">
+                          <img src="../assets/images/shoes/shoes5_show.jpg">
+                          <h4><b id="zapato5">Botines azules</b></h4>
+                          <button id="btnAgregarZapato5" data-id="shoes_5" data-type="shoes" data-name="Zapato 5" data-desc="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, nulla." data-imgsrcjpg="../assets/images/shoes/shoes5_show.jpg" data-imgsrcpng="../assets/images/shoes/shoes5.png" class="tryItNow">Agregar</button>
+                      </div>
+                  </div>
+              
+                  </div>
+              </div>
+          
+              <div class="tab-pane container fade" id="tabHandBags">
+                  <div class="row">
+                      
+                  <div class="col-md-3">
+                      <div class="card text-center">
+                          <img src="../assets/images/handbags/handbag1_show.jpg">
+                          <h4><b id="bolso1">Cartera Negro</b></h4>
+                          <button id="btnAgregarBolso1" data-id="handbag_1" data-type="handbags" data-name="Bolso 1" data-desc="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, nulla." data-imgsrcjpg="../assets/images/handbags/handbag1_show.jpg" data-imgsrcpng="../assets/images/handbags/handbag1.png" class="tryItNow">Agregar</button>
+                      </div>
+                  </div>
+              
+                  <div class="col-md-3">
+                      <div class="card text-center">
+                          <img src="../assets/images/handbags/handbag2_show.jpg">
+                          <h4><b id="bolso2">Bolso Naranja</b></h4>
+                          <button id="btnAgregarBolso2" data-id="handbag_2" data-type="handbags" data-name="Bolso 2" data-desc="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, nulla." data-imgsrcjpg="../assets/images/handbags/handbag2_show.jpg" data-imgsrcpng="../assets/images/handbags/handbag2.png" class="tryItNow">Agregar</button>
+                      </div>
+                  </div>
+              
+                  <div class="col-md-3">
+                      <div class="card text-center">
+                          <img src="../assets/images/handbags/handbag3_show.jpg">
+                          <h4><b id="bolso3">Mini cartera</b></h4>
+                          <button id="btnAgregarBolso3" data-id="handbag_3" data-type="handbags" data-name="Bolso 3" data-desc="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, nulla." data-imgsrcjpg="../assets/images/handbags/handbag3_show.jpg" data-imgsrcpng="../assets/images/handbags/handbag3.png" class="tryItNow">Agregar</button>
+                      </div>
+                  </div>
+              
+                  </div>
+              </div>
+          
+              <div class="tab-pane container fade" id="tabNecklaces">
+                  <div class="row">
+                      
+                  <div class="col-md-3">
+                      <div class="card text-center">
+                          <img src="../assets/images/necklaces/necklace1_show.jpg">
+                          <h4><b id="accesorio1">Collar centro celeste</b></h4>
+                          <button id="btnAgregarAccesorio1" data-id="necklace_1" data-type="necklaces" data-name="Collar 1" data-desc="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, nulla." data-imgsrcjpg="../assets/images/necklaces/necklace1_show.jpg" data-imgsrcpng="../assets/images/necklaces/necklace1.png" class="tryItNow">Agregar</button>
+                      </div>
+                  </div>
+              
+                  <div class="col-md-3">
+                      <div class="card text-center">
+                          <img src="../assets/images/necklaces/necklace2_show.jpg">
+                          <h4><b id="accesorio2">Collar de gemas de colores</b></h4>
+                          <button id="btnAgregarAccesorio2" data-id="necklace_2" data-type="necklaces" data-name="Collar 2" data-desc="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, nulla." data-imgsrcjpg="../assets/images/necklaces/necklace2_show.jpg" data-imgsrcpng="../assets/images/necklaces/necklace2.png" class="tryItNow">Agregar</button>
+                      </div>
+                  </div>
+              
+                  <div class="col-md-3">
+                      <div class="card text-center">
+                          <img src="../assets/images/necklaces/necklace3_show.jpg">
+                          <h4><b id="accesorio3">Bufanda Vaca</b></h4>
+                          <button id="btnAgregarAccesorio3" data-id="necklace_3" data-type="necklaces" data-name="Bufanda" data-desc="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, nulla." data-imgsrcjpg="../assets/images/necklaces/necklace3_show.jpg" data-imgsrcpng="../assets/images/necklaces/necklace3.png" class="tryItNow">Agregar</button>
+                      </div>
+                  </div>
+              
+                  </div>
+              </div>
+          </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+            <div class="contain">
+              <div class="body"></div>
+              <div class="model"></div>
+              <div class="necklace"></div>
+              <div class="bikinitop"></div>
+              <div class="bikinibottom"></div>
+              <div class="handbag"></div>
+              <div class="feet"></div>
+              <div class="background"></div>
+            </div>
+            <div action = "" class="guardar">
+              <button id="btnguardar">Guardar</button>
+            </div>
+
+            <script>
+                document.getElementById("btnguardar").onclick = function() {guardar()};
+
+                function guardar(){
+                    alert('Guardado correctamente')
+                    window.location = "../index.html";
+                }
+
+            </script>
+
+            <div  action = "" class="recomendar">
+              <button id="btnrecomendar" class="btnrec">Recomendar</button>
+
+                <script>
+                    document.getElementById("btnrecomendar").onclick = function() {recomendar()};
+                    
+                    function recomendar(){
+                    var camisa = getRandomInt(1,7);
+                    var falda = getRandomInt(1,6);
+                    var zapato = getRandomInt(1,6);
+                    var bolso = getRandomInt(1,4);
+                    var accesorio = getRandomInt(1,4);
+                    modfalda(falda);
+                    modzapato(zapato);
+                    modAccesorio(accesorio);
+                    modCamisa(camisa);
+                    modBolso(bolso);
+                    }
+        
+                    function getRandomInt(min, max) {
+                        min = Math.ceil(min);
+                        max = Math.floor(max);
+                        return Math.floor(Math.random() * (max - min) + min);
+                        }
+                        function modCamisa(num1) {
+                        $('.bikinitop').css({
+                            width: "500px",
+                            height: "500px",
+                            background: `url("../assets/images/clothes/topcloth${num1}.png")`,
+                            position: "absolute",
+                            top: "-9%",
+                            left: "-5%",
+                            zIndex: "3",
+                            transform: "scale(0.5)"
+                        });
+                    }
+                
+                    function modfalda(num2) {
+                        $('.bikinibottom').css({
+                            width: "500px",
+                            height: "1000px",
+                            background: `url("../assets/images/clothes/botcloth${num2}.png")`,
+                            position: "absolute",
+                            top: "-30%",
+                            left: "-5%",
+                            zIndex: "2",
+                            transform: "scale(0.5)"
+                        });
+                    }
+                
+                    function modzapato(num3) {
+                        $('.feet').css({
+                            width: "500px",
+                            height: "1000px",
+                            background: `url("../assets/images/shoes/shoes${num3}.png")`,
+                            position: "absolute",
+                            bottom: "-37%",
+                            right: "-3.5%",
+                            transform: "scale(0.5)",
+                            zIndex: "1"
+                        });
+                    }
+                
+                    function modBolso(num4) {
+                        $('.handbag').css({
+                            width: "500px",
+                            height: "1000px",
+                            background: `url("../assets/images/handbags/handbag${num4}.png")`,
+                            position: "absolute",
+                            bottom: "-40%",
+                            right: "-3.5%",
+                            transform: "scale(0.5)",
+                            zIndex: "4"
+                        });
+                    }
+                
+                    function modAccesorio(num5) {
+                        $('.necklace').css({
+                            width: "500px",
+                            height: "1000px",
+                            background: `url("../assets/images/necklaces/necklace${num5}.png")`,
+                            position: "absolute",
+                            bottom: "-40%",
+                            right: "-3.5%",
+                            transform: "scale(0.5)",
+                            zIndex: "4"
+                        });
+                    }
+
+                    
+                    
+                </script>
+
+
+            </div>
+          </div>
+      </div>
+    </div>
+    <!-- Script Jquery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    
+    <!-- Script boodstrap -->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Main en js  -->
+    <script src="../utils/CallData.js"></script>
+    <script src="../models/Choosen.js"></script>
+    <script src="../models/ChoosenList.js"></script>
+    <script src="../controllers/main.js"></script>
+  </body>
+</html>
